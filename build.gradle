@@ -18,9 +18,9 @@ ext {
 group = 'org.yatsiko'
 version = '0.1-SNAPSHOT'
 if (flinkVersionNew) {
-    mainClassName = 'org.yatsiko.DataStreamJob'
+    mainClassName = 'org.yatsiko.slicce.DataStreamJob'
 } else {
-    mainClassName = 'org.yatsiko.StreamingJob'
+    mainClassName = 'org.yatsiko.slice.StreamingJob'
 }
 description = """Flink Quickstart Job"""
 
